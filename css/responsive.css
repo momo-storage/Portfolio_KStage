@@ -1,0 +1,423 @@
+@media (min-width: 1025px) {
+    
+    .header nav .country-list li {
+        font-size: 14px !important;
+        margin: 15px 9px 13px !important;
+    }
+}
+@media (max-width: 1450px) {
+    .header h1 {
+        width: 20%;
+    }
+    .nav-list {
+        width: auto;
+    }
+    .country-list {
+        width: auto;
+        float: right;
+    }
+}
+
+@media (max-width: 991px) {
+    .header-inner {
+        height: 6rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .header h1 {
+        width: auto;
+      }
+      .header h1 a {
+          padding-top: 0;
+      }
+      .country-list {
+        display: none;
+      }
+      .header nav li {
+        margin: 0;
+      }
+      .nav-list {
+        display: none;
+        z-index: -1;
+        position: fixed;
+        top: 6rem;
+        left: 0;
+        width: 100%;
+        height: auto;
+        float: none;
+      }
+      .nav-list li {
+        background: #fff;
+        padding: 0 5.045vw;
+      }
+      .nav-list li::after {
+          content:none;
+      }
+      .nav-list li a {
+        display: block;
+        height: 100%;
+        padding: 2.5rem 2.9rem;
+        border-bottom: 1px solid #cecece;
+        font-size: 2.119vw;
+      }
+      .nav-list li:last-child a {
+          border-bottom: none;
+      }
+      .header-m-wrap {
+          display: block;
+      }
+      .header--m-menu {
+        width: 5.651vw;
+      }
+      .header--m-menu.open {
+        width: 4.036vw;
+      }
+    
+    .main {
+        margin-top: 5rem;
+    }
+    .section01 .title {
+        font-size: 6.161vw
+    }
+    .section01 .title b {
+        font-size: 7vw;
+    }
+    .section01-wrap p:nth-of-type(1) {
+        font-size: 2.083vw;
+    }
+    .section01-wrap p:nth-of-type(2) {
+        font-size: 1.693vw;
+        line-height: 3.292vw;
+        padding: 1.333vw 0 0.448vw 0;
+    }
+    .section02 h3 img,
+    .section03 h3 img {
+        width: 25.438vw;
+    }
+    .section02 .itv-btn img {
+        width: 15.177vw;
+    }
+    .section02-list .col-md-4.item {
+        width: 25.344vw;
+    }
+    .section02 .item a {
+        top: -2.458vw;
+        left: -3.031vw;
+        width: 10.083vw;
+    }
+    .section02-list .col-md-6.item {
+        width: 39.24vw;
+    }
+    .section02 .inner::after {
+        padding-bottom: 113.833%;
+    }
+    .section03 .inner::before {
+        padding-bottom: 14.0%;
+    }
+    .section03 .inner::after {
+        padding-bottom: 50.864%;
+    }
+    .section03 span {
+        font-size: 1.967vw;
+    }
+    .section03 strong {
+        font-size: 3.67vw;
+        padding: 1.938vw 0 2vw 0;
+    }
+    .perform-img-info p {
+        font-size: 1.8vw;
+        line-height: 3.2vw;
+    }
+    .section03 .perform-img {
+        padding: 25.078% 0;
+    }
+    .perform-cover p {
+        font-size: 2vw;
+        padding: 4.313vw 1.302vw 2.552vw 1.302vw;
+        line-height: 4.396vw;
+    }
+    .footer_wrap {
+        flex-direction: column;
+        height: auto;
+        padding: 5vw 0;
+    }
+    .footer_wrap > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .footer_wrap ul {
+        justify-content: center;
+    }
+    .footer_txt {
+        margin: 2vw 0;
+    }
+    
+  }
+  @media (max-width: 768px) {    
+    .header h1 img {
+        width: 27.61vw;
+    }
+    .header--m-menu {
+        width: 9.463vw;
+    }
+    .header--m-menu.open {
+        width: 6.651vw;
+    }
+    .nav-list {
+        box-shadow: 5px 0 10px rgba(0,0,0,.2);
+    }
+    .nav-list li a {
+        font-size: 2.805vw;
+    }
+    .main {
+        margin-top: 6rem;
+    }
+    .section01 .inner::before {
+        background: url(../images/common/m_section_01_bg.jpg) no-repeat;
+        background-size: cover;
+        padding-bottom: 59.024%;
+    }
+    .section01 .inner::after {
+        background: url(../images/common/m_section_02_bg_1.jpg) no-repeat;
+        background-size: cover;
+        padding-bottom: 80.975%;
+        margin-top: 29.756vh;
+     } 
+    .section01-wrap {
+        top: 31.878vw
+    }
+    .section01 .title {
+      font-size: 12.415vw;
+      padding-bottom: 1vw;
+    }
+    .section01 .title b {
+      font-size: 14.854vw;
+    }
+    .section01-wrap p:nth-of-type(1) {
+        font-size: 2.902vw;
+        line-height: 4.2vw;
+    }
+    .section01-wrap p:nth-of-type(2) {
+        font-size: 2.9vw;
+        padding: 4.634vw 3vw;
+        line-height: 5.2vw;
+        text-shadow: 2px 2px #fff;
+    }
+    .section01-media li {
+        width: 35.854vw;
+        margin: 0 2.866vw;
+    }
+    .section02-wrap {
+        top: -3.049vw;
+    }
+    .section02 .inner::after {
+        background: url(../images/common/m_section_03_bg.jpg) no-repeat;
+        background-size: cover;
+        padding-bottom: 171.829%;
+    }
+    .section02 h3 img, .section03 h3 img {
+        width: 32.683vw;
+    }
+    .section02 .itv-btn {
+        margin: 5.244vw 0 11.463vw 0;
+    }
+    .section02 .itv-btn::before {
+        background: url(../images/kor/m_sb_ob.png) no-repeat;
+        width: 29.390vw;
+        height: 22.439vw;
+        background-size: contain;
+        left: 0;
+    }
+    .section02 .itv-btn img {
+        width: 35vw;
+    }
+    .section02-list .col-md-4.item {
+        width: 29.344vw;
+        margin-bottom: 9.756vw;
+    }
+    .section02-list .col-md-6.item {
+        width: 45.24vw;
+    }
+    .section02 .item a {
+        top: -4.458vw;
+        left: -4vw;
+        width: 13.083vw;
+    }
+    .section03 h3 {
+        top: -3.293vw;
+    }
+    .section03 .inner::before {
+        background: url(../images/common/m_section_04_bg.jpg) no-repeat;
+        background-size: cover;
+        padding-bottom: 16.463%;
+    }
+     #perform1 .perform-img {
+        background: url(../images/common/m_perform1.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 49.085% 0;        
+    }
+    #perform1 .perform-img::after {
+        background: url(../images/common/m_perform01_obj_tp.png) no-repeat;
+        background-size: cover;
+        padding-top: 19.512%;
+    }
+    #perform1 .perform-cover::after {
+        background: url(../images/common/m_perform01_obj_bt.png) no-repeat;
+        background-size: cover;
+        padding-bottom: 41.951%;
+    }
+    #perform2 .perform-img {
+        background: url(../images/common/m_perform2.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 51.28% 0;   
+        padding-bottom: 75vw;     
+    }
+    #perform2 .perform-img::after {
+        background: url(../images/common/m_perform02_obj_tp.png) no-repeat;
+        background-size: cover;
+        padding-top: 20.853%;
+    }
+    #perform2 .perform-cover::after { 
+        background: url(../images/common/m_perform02_obj_bt.png) no-repeat;  
+        background-size: cover;
+        padding-bottom: 13.0487%;
+      }
+    #perform3 .perform-img {
+        background: url(../images/common/m_perform3.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 69.573% 0;   
+        padding-bottom: 75vw;     
+    }
+    #perform3 .perform-img::after {
+        background: url(../images/common/m_perform03_obj_tp.png) no-repeat;
+        background-size: cover;
+        padding-top: 22.439%;
+    }
+    #perform3 .perform-cover::after { 
+        background: url(../images/common/m_perform03_obj_bt.png) no-repeat;  
+        background-size: cover;
+        padding-bottom: 11.3414%;
+      }
+    #perform4 .perform-img {
+        background: url(../images/common/m_perform4.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 60.06095% 0;   
+        padding-bottom: 75vw;     
+    }
+    #perform4 .perform-img::after {
+        background: url(../images/common/m_perform04_obj_tp.png) no-repeat;
+        background-size: cover;
+        padding-top: 24.512%;
+    }
+    #perform4 .perform-cover::after { 
+        background: url(../images/common/m_perform04_obj_bt.png) no-repeat;  
+        background-size: cover;
+        padding-bottom: 9.878%;
+    }
+    #perform5 .perform-img {
+        background: url(../images/common/m_perform5.jpg) no-repeat center;
+        background-size: cover;
+        background-attachment: scroll;
+        padding: 57.012% 0;   
+        padding-bottom: 55vw;     
+    }
+    #perform5 .perform-img::after {
+        background: url(../images/common/m_perform05_obj_tp.png) no-repeat;
+        background-size: cover;
+        padding-top: 25.853%;
+    }
+    #perform5 .perform-cover::after { 
+        background: url(../images/common/m_perform05_obj_bt.png) no-repeat;  
+        background-size: cover;
+        padding-bottom: 9.878%;
+    }
+    #perform4 strong {
+        font-size: 6.517vw;
+    }
+    .section03 span {
+        font-size: 3.415vw;
+    }
+    .section03 strong {
+        font-size: 7.317vw;
+        padding: 1.938vw 0 3vw 0;
+    }
+    .perform-img-info p {
+        font-size: 2.927vw;
+        line-height: 5.5vw;
+    }   
+    #perform3 .perform-img-info p,
+    #perform5 .perform-img-info p {
+        font-size: 2.727vw;
+        letter-spacing: -0.0752em;
+    }
+    .perform-img-txt {
+        margin: 2.604vw 0 3.458vw 0;
+    }
+    
+    #perform1 .perform-cover {
+        height: 153.255vw;
+    }
+    #perform2 .perform-cover {
+        height: 149.219vw;
+    }
+    #perform3 .perform-cover {
+        height: 127.902vw;
+    }
+    #perform4 .perform-cover {
+        height: 143.0487vw;
+    }
+    #perform5 .perform-cover {
+        height: 137.549vw;
+    }
+    
+    .perform-cover-photo .col-lg-6 {
+        width: 47.385vw;
+    }
+    .perform-cover p {
+        font-size: 2.927vw;
+        padding: 8.537vw 5.902vw 3.659vw 5.902vw;
+        line-height: 5vw;
+    }
+    .footer_logo {
+        width: 30vw;
+    }
+    .footer_logo a img {width: 30vw;}
+    .footer_wrap ul {
+        width: auto;
+    }
+    .footer_wrap li {
+        width: 10.135vw;
+        margin: 0 2.195vw;
+    }
+    .footer_wrap > div {
+        order: 2;
+        justify-content: space-evenly;
+        margin-top: 3.902vw;
+    }
+    .footer_txt {
+        font-size: 2.2vw;
+        font-weight: 500;
+        margin: 1vw 0;        
+    }
+  }
+
+  @media (max-width: 320px) {
+    #perform3 .perform-img {
+        padding-bottom: 105vw;
+    }
+    #perform3 strong {
+        font-size: 5.317vw;
+    }
+    #perform3 span {
+        font-size: 2.415vw;
+    }
+    #perform3 .perform-img-info p {
+        line-height: 4.5vw;
+    }
+  }
