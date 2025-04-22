@@ -1,0 +1,32 @@
+# macOS 시스템 파일
+.DS_Store
+
+# VS Code 설정 폴더
+.vscode/
+
+# SASS/SCSS 캐시 파일
+.sass-cache/
+*.css.map
+
+# 빌드 결과물 폴더 (있을 경우)
+dist/
+build/
+
+# npm/node 환경 (만약 사용한다면)
+node_modules/
+
+# 환경 설정 파일 (보안 이유)
+.env
+
+# 로그 파일
+*.log
+
+# OS 쓰레기 파일
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 기타 임시 백업 파일
+*.bak
+*.tmp
+*~
